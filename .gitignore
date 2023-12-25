@@ -23,6 +23,3 @@ eclipse
 run
 run_server
 .vscode
-.architectury-transformer/
-/gradle-8.3-bin.zip
-/gradle-8.2-bin.zip
