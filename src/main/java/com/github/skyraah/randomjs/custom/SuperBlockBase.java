@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@SuppressWarnings(value = {"deprecation"})
+@SuppressWarnings(value = {"deprecation", "unused"})
 public class SuperBlockBase extends BasicBlockJS {
     public static class SuperBlockBuilder extends BlockBuilder {
         public boolean isCustomSurviveType;
