@@ -11,8 +11,8 @@ enum SuperType implements StringRepresentable {
 
     private final String name;
 
-    SuperType(String p_61680_) {
-        this.name = p_61680_;
+    SuperType(String name) {
+        this.name = name;
     }
 
     public String toString() {
