@@ -1,4 +1,4 @@
-package com.github.skyraah.randomjs.custom;
+package com.github.skyraah.randomjs.block.custom;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -23,7 +23,6 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @SuppressWarnings(value = {"deprecation", "unused"})
 public class SuperBlockBase extends BasicBlockJS {

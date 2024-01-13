@@ -1,4 +1,4 @@
-package com.github.skyraah.randomjs.custom;
+package com.github.skyraah.randomjs.block.custom;
 
 import net.minecraft.util.StringRepresentable;
 import org.jetbrains.annotations.NotNull;

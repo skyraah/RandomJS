@@ -103,9 +103,16 @@ repositories {
     }
 
     maven {
-        url "https://cursemaven.com"
+        url = "https://cursemaven.com"
         content {
             includeGroup "curse.maven"
+        }
+    }
+
+    maven {
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
         }
     }
 }
@@ -119,7 +126,12 @@ dependencies {
     implementation fg.deobf("dev.latvian.mods:rhino-forge:${rhino_version}")
     implementation fg.deobf("dev.architectury:architectury-forge:${architectury_version}")
 
+    implementation fg.deobf("maven.modrinth:djv5t1An:hTiWbKzE")
+
     implementation fg.deobf("curse.maven:kiwi-303657:5026680")
+    implementation fg.deobf("curse.maven:eventhorizon-890704:5026654")
+
+    runtimeOnly fg.deobf("curse.maven:probejs-585406:5021484")
 }
 
 tasks.named('processResources', ProcessResources).configure {
