@@ -61,3 +61,10 @@ description='''add some new KubeJS grammer'''
    versionRange="${minecraft_version_range}"
    ordering="NONE"
    side="BOTH"
+
+[[dependencies.${mod_id}]]
+   modId="kiwi"
+   mandatory=true
+   versionRange="[11.5.0,)"
+   ordering="BEFORE"
+   side="BOTH"
